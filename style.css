@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: large;
+    font-weight:bold;
+    background: #bacbf688;
+
+}
+
+.bg-header{
+    background: linear-gradient(180deg, #4A56BD 40.63%, rgba(123, 135, 248, 0.08) 100%);
+    height: 350px;
+}
+
+/* .a-tag :hover {
+    color: rgb(128, 128, 240);
+} */
+.login-btn {
+    text-align: center;
+    width: 15%;
+    border-radius: 5px;
+    position: absolute;
+    top: 2.4%;
+    left: 83%;
+}
+
+.card-container{
+    background: #C4C4C4;
+    padding: 10%;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+
+.image-container{
+   
+    border: 2px solid rgb(163, 159, 159);
+    border-radius: 6px;
+    
+
+ }
+.image-container img{
+    padding: 3px;
+}
+.grid-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    position: relative;
+    top: 100px;
+   
+}
+
+.signup-btn{
+    background-color: #3646d4;
+    border-radius: 5px;
+    text-align: center;
+    width: 40%;
+
+}
+
+.footer-container {
+    background: rgba(2, 21, 70, 0.96);
+    border-radius: 7px;
+    z-index: -1;
+}
+.footer-links {
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
