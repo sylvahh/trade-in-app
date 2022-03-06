@@ -2,13 +2,18 @@
     padding: 0%;
     margin: 0%;
 }
-
 body{
-
+    width: 95vw ;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 8% ;
 }
 .nav-bg{
     background-color: rgb(0, 0, 0);
     width: 100%;
+
 }
 
 .float-link{
@@ -26,16 +31,17 @@ body{
 
 }
 
-.card-container{
+.card-content{
     background: #4B6A98;
     padding: 10%;
     margin: 30px;
     border-radius: 10px;   
 }
 
-.card-header{
-    /* position: relative;
-    width: 50%;
+.card-heading{
+     /* position: relative; */
+    align-self: center;
+   /* width: 50%;
     height: 29px;
     left: 35%;
     top: px; */
